@@ -16,7 +16,7 @@ channel = config.channel_id
 # запускаем клиент с помощью библиотеки pyrogram /
 # start client session with a pyrogram library
 bot = Client(
-    session_name="vc_parser_bot",
+    session_name="news_parser_bot",
     bot_token=config.bot_token,
     api_id=config.api_id,
     api_hash=config.api_hash,
